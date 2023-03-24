@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>自作曲紹介サイト</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-izN7eC9XY/bazMK7Vr/5McKjixmv0Rwz8m7mRUg0YmB0vH9Wt3qgjCmG/zfENw3uvqTvlC0ZWyvkpvO46scgjA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <section class="hero is-link">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
-          自作曲紹介サイト
-        </h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>自作曲紹介サイト</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"
+      integrity="sha512-icpCst1/3tknT3qA/+eIvT8mGzJSBziR2JdDgsyvK8BnWkOw7zAmzsLJtsZab35jxOotdufO9XrMIvMvBglWjg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          <h1 class="title is-4 has-text-white">自作曲紹介サイト</h1>
+        </a>
       </div>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-one-fifth">
-          <aside class="menu">
-            <p class="menu-label">
-              曲一覧
-            </p>
-            <ul class="menu-list">
-              <li><a href="#">曲1</a></li>
-              <li><a href="#">曲2</a></li>
-              <li><a href="#">曲3</a></li>
-              <li><a href="#">曲4</a></li>
-              <li><a href="#">曲5</a></li>
-            </ul>
-          </aside>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#">曲一覧</a>
+          <a class="navbar-item" href="#">お問い合わせ</a>
         </div>
-        <div class="column">
-          <div class="content">
-            <h2>曲1</h2>
-            <p>ここに曲1の説明を書きます。</p>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-one-quarter">
+            <aside class="menu">
+              <p class="menu-label">ジャンル</p>
+              <ul class="menu-list">
+                <li><a href="#">J-POP</a></li>
+                <li><a href="#">ロック</a></li>
+                <li><a href="#">EDM</a></li>
+              </ul>
+              <p class="menu-label">曲名</p>
+              <ul class="menu-list">
+                <li><a href="#">曲名1</a></li>
+                <li><a href="#">曲名2</a></li>
+                <li><a href="#">曲名3</a></li>
+              </ul>
+            </aside>
+          </div>
+          <div class="column">
+            <div class="content">
+              <h2 class="title is-2">曲名1</h2>
+              <p>ここに曲の説明を入力します。</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</body>
+    </section>
+  </body>
 </html>
